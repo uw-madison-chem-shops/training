@@ -1,0 +1,123 @@
+\documentclass{training}
+
+\title{PCB etching}
+\date{\today}
+\author{Helena Pliszka, Blaise Thompson}
+
+\begin{document}
+
+\maketitle
+\renewcommand{\baselinestretch}{0.5}\normalsize
+\tableofcontents
+\renewcommand{\baselinestretch}{1.0}\normalsize
+\vfill
+
+Part of the training materials prepared by the \href{https://shops.chem.wisc.edu/}{Chemistry Shops} at UW--Madison. \\
+This document was prepared using \href{https://www.latex-project.org/}{\LaTeX}. \\
+Source code and all associated files can be found at \href{https://git.chem.wisc.edu/shop/training/pcb-etching}{git.chem/shop/training/pcb-etching}. \\
+If you find any mistakes or feel that any information is missing, please \href{https://git.chem.wisc.edu/shop/training/pcb-etching/issues}{open an issue}. \\
+
+\clearpage
+\section{design considerations}
+
+We have the ability to make printed circuit boards (PCBs) in house.
+The end product is not typically appropriate for long term use, but the very short turn-around time makes in-house printing an invaluable prototyping tool.
+
+We can print circuit boards up to 150 x 230 mm (6 x 9''). Printing cost depends on the size of the board: \\
+- quarter (up to 75 x 115 mm) \$20 \\
+- half (up to 115 x 150 mm) \$30 \\
+- full (up to 150 x 230 mm) \$40 \\
+These flat prices include the cost of materials and staff labor. \\
+Typically, boards can be printed in one day or less.
+
+Use a PCB layout program like KiCAD to plan your board---ask a staff member for help if you are unfamiliar with these programs.
+We use photolithography to create our boards.
+Our boards are limited to two layers, and do not have vias.
+With these limitations in mind, the following guidelines are recommended when designing your prototype: \\
+- use 35 mil (or larger) traces for power and common \\
+- use 15 mil (or larger) traces for signal \\
+- for typical components, use pads with 50 mil outer diameter and 39 mil hole diameter \\
+- many components cannot be soldered from the top of the PCB---for these, ensure that connecting traces \\ \phantom{-} approach from the bottom \\
+- avoid right angles in your traces, use two 45 degree bends instead \\
+- mark 0.125'' diameter circles at board corners for \#4 standoff mounting screws \\
+Once you are finished laying out your board, email it to Blaise (bthompson@chem.wisc.edu) for printing.
+
+You will receive your board without any holes.
+Use the a drill press to make holes for all of your components.
+Ask a staff member for help if you are unfamiliar with this process.
+Drill all your holes and dry-fit your components before doing any soldering.
+
+Typical components require a \#65 drill bit.
+For 4-40 standoff mounting screws, use the large drill press and a 1/8'' bit.
+When in doubt, use a pair of calipers to measure the component legs and use the next largest drill in the following table:
+
+\begin{center}
+\begin{tabular}{c | c | l}
+  drill bit & diameter & typical usage \\ \hline
+  70 & 28 mil & integrated circuits, sockets \\
+  65 & 35 mil & discrete resistors, capacitors, diodes etc \\
+  60 & 40 mil & wire, large components \\
+  1/8 & 0.125'' & \#4 machine screw through holes
+\end{tabular}
+\end{center}
+
+Enjoy your prototype!
+We hope that it works exactly as expected.
+
+\clearpage
+\section{standard operating procedure}
+
+Personal protective equipment:
+\begin{itemize}
+  \item lab coat
+  \item goggles
+  \item gloves
+\end{itemize}
+
+Setup:
+\begin{itemize}
+  \item Turn on heating for copper etchant bath, since takes a while to warm up
+Align transparencies on well lit fume hood window and tape together with scrap board in between to mimic board thickness
+  \item Turn off light sooner to let your eyes adjust (once don’t have to leave room anymore)
+Pour about ½ inch of 9:1 developer into bin
+\end{itemize}
+
+Board Exposure (room must be dark for all steps)
+\begin{itemize}
+  \item Look through previously cut pieces for size match -- if need be trim with heavy duty paper cutter
+  \item Peel off protective sticker (will take off some photoresist too unfortunately)
+  \item Place in between transparencies and lay in UW exposure box (carefully open/close box, lid is very heavy)
+  \item Leave to expose for 6 minutes on dial
+\end{itemize}
+
+Developing
+\begin{itemize}
+  \item Turn room light on
+  \item Remove board from transparency enclosure and set in developing solution
+  \item With your thumbs holding the board in place, slosh the solution over the board (if the board slides, it will be scratched)
+  \item Flip board to ensure even washing
+  \item Watch blue photoresist wash off
+\end{itemize}
+
+Quenching
+\begin{itemize}
+  \item Rinse board gently with DI water (comes from hose)
+\end{itemize}
+
+Etching:
+\begin{itemize}
+  \item Loosen one screw on etchent bath holder
+  \item Tighten the circuit between the two plastic channels, resting it on the lower metal stops
+  \item Tighten screw, ensuring circuit will not fall out of place
+  \item With Na2S2O8 bath around 40C, lower circuit into solution and switch on “stirrer” that will bubble air through the bath
+  \item Check every 15 minutes, for roughly an hour till copper color goes from gold → salmon pink → yellow (make sure not to overexpose)
+\end{itemize}
+
+Finalization
+\begin{itemize}
+  \item dry circuit
+  \item cut to size
+  \item deliver to customer
+\end{itemize}
+
+\end{document}

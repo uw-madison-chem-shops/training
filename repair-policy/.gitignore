@@ -1,0 +1,13 @@
+# LaTeX auxillary files
+*.aux
+*.bcf
+*.log
+*.out
+*.xml
+*.toc
+
+# LaTeX generated filex
+*.pdf
+
+# minted
+_minted*

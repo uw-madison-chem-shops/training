@@ -1,0 +1,170 @@
+\documentclass{training}
+
+\title{Python}
+\date{\today}
+\author{Blaise Thompson}
+
+\begin{document}
+
+\maketitle
+\renewcommand{\baselinestretch}{0.5}\normalsize
+\tableofcontents
+\renewcommand{\baselinestretch}{1.0}\normalsize
+\vfill
+
+Part of the training materials prepared by the \href{https://shops.chem.wisc.edu/}{Chemistry Shops} at UW--Madison. \\
+This document was prepared using \href{https://www.latex-project.org/}{\LaTeX}. \\
+Source code and all associated files can be found at \href{https://git.chem.wisc.edu/shop/training/python}{git.chem/shop/training/python}. \\
+If you find any mistakes or feel that any information is missing, please \href{https://git.chem.wisc.edu/shop/training/python/issues}{open an issue}. \\
+
+\clearpage
+\section{introduction}
+
+Python is a wonderfully expressive and elegant language which is becoming more popular each year.
+Python is multi-paradigm: the language supports functional, object oriented, event-based, and procedural programming.
+Python is used in a wide variety of applications: data processing, web development, hardware interface, and many other applications.
+This wide amount of flexibility makes Python one of the most popular programming languages today.
+
+The core Python language is very minimal.
+On top of this core, Python offers a package system that allows developers to install additional features that can be ``imported'' into their scripts.
+The \href{https://pypi.org/}{Python Package Index} contains over 200,000 such packages that can be installed for free.
+
+Python is not just Python!
+In many cases, Python is used as a ``glue language''.
+Consider NumPy: the fundamental package for scientific computing with Python.
+The \href{https://github.com/numpy/numpy}{NumPy source code} is more than 50\% C.
+For packages like NumPy, the Python code is simply an ``interface'' to the more peformant C implementation.
+Python for graphics typically work this way as well.
+It is also common to provide a Python ``scripting interface'' to complex applications written in other languages: consider for example the \href{https://docs.kicad-pcb.org/doxygen/md_Documentation_development_pcbnew-plugins.html}{Python plugin interface to KiCad}.
+
+All this flexibility means that it isn't practical to just ``learn Python''.
+Even developers that have been using Python for many years are probably only familiar with a small piece of the ecosystem.
+It's best to approach Python with a ``project oriented'' mindset because otherwise you are likely to get lost in the multitude of options.
+
+\clearpage
+\section{installation}
+
+Please use Python 3.
+\href{https://www.python.org/doc/sunset-python-2/}{Python 2 was sunset on 2020-01-01}, and is no-longer receiving security patches.
+If you are using Python 2 due to some legacy code, upgrading is typically not challenging.
+The syntax differences between Python 2 and Python 3 are minimal.
+
+Because Python often serves as a ``glue language'', it is sometimes difficult to install packages.
+To install NumPy from source, you need a C compiler, which typically isn't available on a Windows machine.
+\href{https://www.anaconda.com/}{Anaconda} is a company that attempts to solve this package distribution problem by distributing pre-compiled packages for each operating system (for Python and other languages too).
+Their package manager is called conda.
+We recommend installing \href{https://docs.conda.io/en/latest/miniconda.html}{miniconda}, which minimally installs conda on your machine.
+You can also install the ``full'' \href{https://www.anaconda.com/distribution/}{anaconda distribution}, which is the conda package manager plus a bunch of pre-installed packages.
+Once conda is installed there are a few commands to know:
+\begin{itemize}
+  \item \bashil{conda config --add channels conda-forge} add \href{https://conda-forge.org/}{conda-forge} channel
+  \item \bashil{conda --help}
+  \item \bashil{conda install <NAME>}
+  \item \bashil{conda list} list installed packages
+  \item \bashil{conda upgrade --all} upgrade packages
+\end{itemize}
+
+\clearpage
+\section{built-in behavior}
+
+The repository at \url{https://git.chem.wisc.edu/shop/training/python} contains scripts that we will use for this lesson.
+Refer to the ``basics'' folder.
+This lesson covers built-in Python behavior.
+These are features of the language that require no additional packages.
+
+The simplest way to interact with Python is via the REPL (Read Eval Print Loop).
+Simply type \bashil{python} into your terminal to enter the REPL. Also \bashil{python -i <SCRIPT>.py}.
+
+\bashil{hello_world.py}
+
+\bashil{math.py}
+
+\bashil{bool.py}
+
+\bashil{strings.py}
+
+\bashil{files.py}
+
+\bashil{iterables.py}
+
+\bashil{functions.py}
+Note the use of \href{https://www.python.org/dev/peps/pep-0257/}{docstrings}. We recommend \href{https://numpydoc.readthedocs.io/en/latest/format.html}{NumPy style docstrings}.
+
+\clearpage
+\section{scientific python}
+
+The repository at \url{https://git.chem.wisc.edu/shop/training/python} contains scripts that we will use for this lesson.
+Refer to the ``scipy'' folder.
+This lesson introduces the core packages of the scientific python ecosystem.
+These packages extend Python with powerful data processing and simulation functionality.
+We will be using \href{https://numpy.org/}{NumPy}, \href{https://matplotlib.org/}{Matplotlib}, and \href{https://docs.scipy.org/doc/scipy/reference/}{SciPy}.
+You can install these with conda if you don't already have them:
+\begin{bash}
+$ conda install numpy matplotlib scipy
+\end{bash}
+
+Scripts to go through:
+
+\bashil{sine.py}
+
+\bashil{genfromtxt.py}
+
+\bashil{broadcasting.py}
+
+\bashil{leastsq.py}
+
+There are several other ``favorite'' Python packages that deserve mention. \\
+For working with data:
+\begin{itemize}
+  \item \href{https://www.h5py.org/}{h5py} - store and process huge numerical arrays
+  \item \href{https://pandas.pydata.org/}{pandas} - interact with tabular data
+  \item \href{http://xarray.pydata.org/en/stable/}{xarray} - metadata for multidimensional arrays
+\end{itemize}
+For interacting with instrumental hardware:
+\begin{itemize}
+  \item \href{https://pythonhosted.org/pyserial/}{pySerial} - send and receive serial commands
+  \item \href{https://pythonhosted.org/PyDAQmx/}{PyDAQmx} - interact with DAQs from National Instruments
+  \item \href{https://yaq.fyi/}{yaq} - a modular and extensible instrument control framework
+\end{itemize}
+Other:
+\begin{itemize}
+  \item \href{https://scikit-learn.org/stable/index.html}{scikit-learn} - machine learning
+  \item \href{https://www.nmrglue.com/}{nmrglue} - work with NMR data
+  \item \href{http://wright.tools/}{WrightTools} - work with multidimensional spectroscopy data
+\end{itemize}
+
+\clearpage
+\section{packaging}
+
+``Packaging'' is the process of taking Python code and making it into a Python Package.
+This will allow other people to ``install'' your code and access it through importing.
+Moving from the scripting stage to developing a package can be a bit of a leap, since packaging requires learning some slightly more advanced concepts like modules and setuptools.
+
+At some point Blaise would like to explain packaging... for now you can copy the structure of \href{https://github.com/wright-group/WrightTools}{WrightTools} if you want to see a completed package.
+
+\clearpage
+\section{resources}
+
+\subsection*{development environments}
+
+Python files are plain text, so you may write and refine them using any text editor.
+However there are many integrated development environments (IDEs) that you may find helpful.
+\begin{itemize}
+  \item \href{https://www.jetbrains.com/pycharm/}{PyCharm}
+  \item \href{https://code.visualstudio.com/}{VS Code}
+  \item \href{https://www.spyder-ide.org/}{Spyder}
+  \item \href{https://notepad-plus-plus.org/}{Notepad++} (Windows only)
+  \item \href{https://atom.io/}{Atom}
+\end{itemize}
+
+\href{https://jupyter.org/}{Jupyter Notebooks} also deserve special recognition as an excellent interface to Python in certain circumstances.
+In general, notebooks are good environments for scripting and processing data.
+Notebooks do not scale well to application or package development.
+
+\subsection*{learning more}
+
+\href{https://scipython.com/}{Learning Scientific Programming with Python}
+
+\href{https://matplotlib.org/3.2.1/tutorials/index.html}{Matplotlib tutorials}
+
+\end{document}
