@@ -1,0 +1,22 @@
+KiCad shortcuts
+
+Eeschma
+| key | action                     |
+|-----+----------------------------|
+| a   | add symbol                 |
+| w   | draw wire                  |
+| q   | place no-connection flag   |
+| c   | copy component at cursor   |
+| m   | move component at cursor   |
+| p   | add power component        |
+| r   | rotate component at cursor |
+| x   | flip component at cursor   |
+| e   | edit component at cursor   |
+
+Pcbnew
+| key | action                   |
+|-----+--------------------------|
+| o   | add footprint            |
+| x   | draw track               |
+| m   | move component at cursor |
+| v   | add via                  |

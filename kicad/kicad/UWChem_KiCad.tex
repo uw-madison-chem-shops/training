@@ -1,0 +1,117 @@
+\documentclass[12pt]{article}
+
+% geometry
+\usepackage[margin=0.75in]{geometry}
+
+% text
+\usepackage{setspace}
+\renewcommand{\familydefault}{\sfdefault}
+\setlength\parindent{0pt}
+\setlength{\parskip}{\baselineskip}
+
+% lists
+\usepackage[shortlabels]{enumitem}
+\setlist[enumerate, 1]{nosep}
+\setlist[enumerate, 2]{nosep, topsep=-5ex}
+\setlist[enumerate, 3]{nosep, topsep=-5ex}
+\setlist[enumerate, 4]{nosep, topsep=-5ex}
+\setlist[itemize, 1]{nosep}
+\setlist[itemize, 2]{nosep, topsep=-5ex}
+\setlist[itemize, 3]{nosep, topsep=-5ex}
+\setlist[itemize, 4]{nosep, topsep=-5ex}
+\newenvironment{ditemize}
+  {
+  \begin{itemize}
+  \renewcommand{\labelitemi}{$\rightarrow$}
+  }
+  {
+  \end{itemize}
+  }
+
+\newcommand{\ra}{$\rightarrow$}
+
+\usepackage{graphicx}
+
+\usepackage[yyyymmdd]{datetime}
+\renewcommand{\dateseparator}{--}
+
+\begin{document}
+
+% title
+\title{UW-Madison Chemistry \\ Introduction to KiCad}
+\date{\today}
+\author{Blaise Thompson}
+\maketitle
+
+\section{electronic computer-aided design}
+
+Various options, including:
+\begin{ditemize}
+  \item EAGLE (part of autodesk family)
+  \item ExpressPCB
+  \item KiCAD
+  \item Altium
+  \item Cadence OrCAD
+\end{ditemize}
+Prefer KiCad.
+
+Most ECAD programs have two main interfaces to the circuit:
+\begin{enumerate}
+  \item The schematic
+  \item The PCB
+\end{enumerate}
+
+\clearpage
+\section{introduction to KiCad}
+
+download from http://kicad-pcb.org/download/
+
+When you first launch KiCad, you will be met with a totally blank application.
+
+KiCad is actually made up of several sub-programs.
+You will see these listed along the top of the page.
+They include:
+\begin{ditemize}
+  \item schematic layout editor
+  \item symbol library editor
+  \item PCB layout editor
+  \item footprint library editor
+  \item gerber viewer
+  \item import bitmap
+  \item calculator
+  \item worksheet layout editor
+\end{ditemize}
+
+For this introduction, we will be building a simple delay generator circuit from 628.
+
+\subsection{creating a project}
+
+Before we create our first project, a word about staying organized.
+A KiCad project is not a single file.
+Instead, a KiCad project is a \emph{folder} with different files corresponding to different pieces of your project, like the schematic and (when appropriate) PCB.
+Furthermore, you will find yourself using and modifying \emph{libraries} of electronic footprints and symbols---these will also become part of your project.
+It is imperative that the contents of this folder remain organized, or you risk ``breaking'' your project.
+
+Use \textbf{File \ra{} New \ra{} Project} to create a new project.
+Choose the location and name of your new project.
+You will find that KiCad creates a folder at your chosen location.
+That folder is immediately populated with three files:
+\begin{ditemize}
+  \item kicad\_pcb
+  \item pro
+  \item sch
+\end{ditemize}
+
+
+\clearpage
+\section{schematic capture using eeschema}
+
+
+Change page layout.
+
+\clearpage
+\section{pcb layout using pcbnew}
+
+Change page layout.
+
+\end{document}
