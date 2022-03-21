@@ -1,0 +1,30 @@
+#+TITLE: CHECKLIST: KiCad delay generator project
+* install KiCad
+- kicad-pcb.org/download
+* generate project
+- this is a FOLDER
+- contains .pro, .kicad_pcb, .sch
+* set up schematic
+- open eeschema
+- file -> page settings -> USLetter
+- title block parameters as desired
+* populate schematic
+- do not forget test points!
+- assign component values
+* assign footprints
+- use "Edit Symbol Fields" table
+* generate netlist
+- annotate automatically
+* set up PCB
+- open PCBNEW
+- file -> page settings -> USLetter
+- title block parameters as desired
+* create board outline
+- useful during board layout
+- good "typical" board size for small circuit: 2.5" by 4.5"
+- (can expand board as needed)
+- add mounting holes
+* lay out board input and output points
+- other things can be placed wherever, but the position of these is often fixed
+* lay out everything else
+* consider adding COPPER labels

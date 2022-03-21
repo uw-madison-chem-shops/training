@@ -1,0 +1,25 @@
+DELAY GENERATOR COMPONENTS
+
+| reference | symbol                       | footprint                                                      |
+|-----------+------------------------------+----------------------------------------------------------------|
+| C1        | Device:CP1                   | Capacitor_THT:CP_Radial_D7.5mm_P2.50mm                         |
+| C2        | Device:CP1                   | Capacitor_THT:CP_Radial_D7.5mm_P2.50mm                         |
+| C3        | Device:CP1                   | Capacitor_THT:CP_Radial_D7.5mm_P2.50mm                         |
+| C4        | Device:C                     | Capacitor_THT:CP_Radial_D7.5mm_P2.50mm                         |
+| C5        | Device:C                     | Capacitor_THT:CP_Radial_D7.5mm_P2.50mm                         |
+| J_INPUT   | Connector_Generic:Conn_01x02 | Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical |
+| J_OUTPUT  | Connector_Generic:Conn_01x02 | Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical |
+| J_POWER   | Connector_Generic:Conn_01x02 | Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical |
+| R1        | Device:R_US                  | Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal  |
+| R2        | Device:R_US                  | Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal  |
+| R_DELAY   | Device:R_Variable_US         | Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertica  |
+| R_GATE    | Device:R_Variable_US         | Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertica  |
+| TP_5V     | Connector:TestPoint          | TestPoint:TestPoint_Loop_D2.60mm_Drill1.6mm_Beaded             |
+| TP_COM    | Connector:TestPoint          | TestPoint:TestPoint_Loop_D2.60mm_Drill1.6mm_Beaded             |
+| TP_DELAY  | Connector:TestPoint          | TestPoint:TestPoint_Loop_D2.60mm_Drill1.6mm_Beaded             |
+| TP_INPUT  | Connector:TestPoint          | TestPoint:TestPoint_Loop_D2.60mm_Drill1.6mm_Beaded             |
+| TP_OUTPUT | Connector:TestPoint          | TestPoint:TestPoint_Loop_D2.60mm_Drill1.6mm_Beaded             |
+| U1        | Regulator_Linear:L7805       | Package_TO_SOT_THT:TO-220-3_Vertical                           |
+| U2        | 74xx:74LS121                 | Package_DIP:DIP-16_W7.62mm_LongPads                            |
+| U3        | 74xx:74LS121                 | Package_DIP:DIP-16_W7.62mm_LongPads                            |
+| (n/a)     |                              | MountingHole_3.2mm_M3                                          |
