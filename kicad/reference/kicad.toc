@@ -1,0 +1,6 @@
+\@ifundefined {etoctocstyle}{\let \etoc@startlocaltoc \@gobble \let \etoc@settocdepth \@gobble \let \etoc@depthtag \@gobble \let \etoc@setlocaltop \@gobble }{}
+\contentsline {section}{\numberline {1}electronic computer-aided design}{6}{section.1}%
+\contentsline {section}{\numberline {2}introduction to KiCad}{7}{section.2}%
+\contentsline {subsection}{\numberline {2.1}creating a project}{7}{subsection.2.1}%
+\contentsline {section}{\numberline {3}schematic capture using eeschema}{8}{section.3}%
+\contentsline {section}{\numberline {4}pcb layout using pcbnew}{9}{section.4}%
