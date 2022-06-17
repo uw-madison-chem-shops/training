@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.4.29)  17 JUN 2022 12:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.4.29)  17 JUN 2022 13:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1439,7 +1439,7 @@ Package pdftex.def Info: logo.png  used on input line 11.
  [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
  <./logo.png>]
-<./instrument.png, id=44, 937.27484pt x 613.17743pt>
+<./instrument.png, id=45, 937.27484pt x 613.17743pt>
 File: ./instrument.png Graphic file (type png)
 <use ./instrument.png>
 Package pdftex.def Info: ./instrument.png  used on input line 17.
@@ -1494,7 +1494,7 @@ Package pdftex.def Info: logo.png  used on input line 35.
  [3
 
 ]
-<./daemons.png, id=66, 937.27484pt x 613.17743pt>
+<./daemons.png, id=67, 937.27484pt x 613.17743pt>
 File: ./daemons.png Graphic file (type png)
 <use ./daemons.png>
 Package pdftex.def Info: ./daemons.png  used on input line 39.
@@ -1574,7 +1574,7 @@ Package pdftex.def Info: logo.png  used on input line 115.
  [11
 
 ]
-<./2d-pl.png, id=151, 462.528pt x 346.896pt>
+<./2d-pl.png, id=152, 462.528pt x 346.896pt>
 File: ./2d-pl.png Graphic file (type png)
 <use ./2d-pl.png>
 Package pdftex.def Info: ./2d-pl.png  used on input line 135.
@@ -1586,16 +1586,23 @@ Package pdftex.def Info: logo.png  used on input line 135.
  [12
 
  <./2d-pl.png>]
-<./bluesky-logo.png, id=163, 216.81pt x 67.75313pt>
+File: logo.png Graphic file (type png)
+<use logo.png>
+Package pdftex.def Info: logo.png  used on input line 154.
+(pdftex.def)             Requested size: 28.45274pt x 45.14172pt.
+ [13
+
+]
+<./bluesky-logo.png, id=174, 216.81pt x 67.75313pt>
 File: ./bluesky-logo.png Graphic file (type png)
 <use ./bluesky-logo.png>
-Package pdftex.def Info: ./bluesky-logo.png  used on input line 143.
+Package pdftex.def Info: ./bluesky-logo.png  used on input line 160.
 (pdftex.def)             Requested size: 369.88585pt x 115.60367pt.
 File: logo.png Graphic file (type png)
 <use logo.png>
-Package pdftex.def Info: logo.png  used on input line 143.
+Package pdftex.def Info: logo.png  used on input line 160.
 (pdftex.def)             Requested size: 28.45274pt x 45.14172pt.
- [13
+ [14
 
  <./bluesky-logo.png>]
 \tf@nav=\write7
@@ -1611,16 +1618,16 @@ Package pdftex.def Info: logo.png  used on input line 143.
 (./yaq-training-presentation.aux)
 Package rerunfilecheck Info: File `yaq-training-presentation.out' has not chang
 ed.
-(rerunfilecheck)             Checksum: 868FE1E423AF4149680F792933FB38AA;297.
+(rerunfilecheck)             Checksum: EB9514E72D7FA7D7DF9D3D8AB82E6735;277.
 Package logreq Info: Writing requests to 'yaq-training-presentation.run.xml'.
 \openout1 = `yaq-training-presentation.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 32828 strings out of 478287
- 647924 string characters out of 5849289
- 1273643 words of memory out of 5000000
- 50340 multiletter control sequences out of 15000+600000
+ 32832 strings out of 478287
+ 647959 string characters out of 5849289
+ 1274643 words of memory out of 5000000
+ 50342 multiletter control sequences out of 15000+600000
  578779 words of font info for 97 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  142i,16n,136p,1863b,848s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1630,10 +1637,10 @@ e/texlive/texmf-dist/fonts/type1/public/libertine/LinBiolinumT.pfb></usr/share/
 texlive/texmf-dist/fonts/type1/public/libertine/LinBiolinumTB.pfb></usr/share/t
 exlive/texmf-dist/fonts/type1/public/libertine/LinLibertineMT.pfb></usr/share/t
 exlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on yaq-training-presentation.pdf (13 pages, 327007 bytes).
+Output written on yaq-training-presentation.pdf (14 pages, 328489 bytes).
 PDF statistics:
- 205 PDF objects out of 1000 (max. 8388607)
- 164 compressed objects within 2 object streams
- 30 named destinations out of 1000 (max. 500000)
+ 216 PDF objects out of 1000 (max. 8388607)
+ 174 compressed objects within 2 object streams
+ 32 named destinations out of 1000 (max. 500000)
  92 words of extra memory for PDF output out of 10000 (max. 10000000)
 

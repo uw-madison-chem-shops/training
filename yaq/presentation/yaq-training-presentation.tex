@@ -92,7 +92,7 @@
 \begin{frame}{yaq clients}
   using your package manager, install \texttt{yaqc}
   \begin{itemize}
-    \item \texttt{client = yaqc.Client(host\="192.168.1.1", port=38002)}
+    \item \texttt{client = yaqc.Client(host="192.168.1.1", port=38002)}
     \item \texttt{client.get\_position}
     \item \texttt{client.set\_position}
     \item \texttt{client.busy}
@@ -103,7 +103,7 @@
 \begin{frame}{yaq clients}
   using your package manager, install \texttt{yaqd-control}
   \begin{itemize}
-    \item \texttt{yaqd scan --host 192.168.1.1 --start 3800 --stop 38005}
+    \item \texttt{yaqd scan -{}-host 192.168.1.1 -{}-start 38000 \\ -{}-stop 38005}
     \item \texttt{yaqd status}
   \end{itemize}
 \end{frame}
@@ -134,7 +134,24 @@
   \end{columns}
 \end{frame}
 
-\section{Related Ideas}
+\section{Using yaq}
+
+\begin{frame}{Using yaq}
+  yaq doesn't have ``built in'' orchestration software
+  \begin{itemize}
+    \item write scripts
+    \item create experiment-specific GUIs
+    \item utilize existing projects focused on orchestration
+  \end{itemize}
+  \vfill
+  the best choice depends on your instrument
+  \begin{itemize}
+    \item scripts are flexible and lightweight---rapid development, few users
+    \item experiment-specific GUIs are great for mature experiments with many users
+    \item can introduce as much or as little sophistication as needed
+  \end{itemize}
+  importantly you can choose a combination of many options!
+\end{frame}
 
 \begin{frame}{Bluesky}
   \center
