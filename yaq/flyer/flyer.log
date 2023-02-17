@@ -1,24 +1,24 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2021.12.22)  7 FEB 2022 15:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2022.7.1)  18 JUL 2022 09:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **flyer.tex
 (./flyer.tex
 LaTeX2e <2021-11-15> patch level 1
-L3 programming layer <2021-11-22>
+L3 programming layer <2022-06-02>
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
 (/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
 File: size10.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
 )
-\c@part=\count183
-\c@section=\count184
-\c@subsection=\count185
-\c@subsubsection=\count186
-\c@paragraph=\count187
-\c@subparagraph=\count188
-\c@figure=\count189
-\c@table=\count190
+\c@part=\count185
+\c@section=\count186
+\c@subsection=\count187
+\c@subsubsection=\count188
+\c@paragraph=\count189
+\c@subparagraph=\count190
+\c@figure=\count191
+\c@table=\count192
 \abovecaptionskip=\skip47
 \belowcaptionskip=\skip48
 \bibindent=\dimen138
@@ -34,11 +34,11 @@ Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 
 (/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
-Package: iftex 2020/03/06 v1.0d TeX engine tests
+Package: iftex 2022/02/03 v1.0f TeX engine tests
 ))
-\Gm@cnth=\count191
-\Gm@cntv=\count192
-\c@Gm@tempcnt=\count193
+\Gm@cnth=\count193
+\Gm@cntv=\count194
+\c@Gm@tempcnt=\count195
 \Gm@bindingoffset=\dimen139
 \Gm@wd@mp=\dimen140
 \Gm@odd@mp=\dimen141
@@ -63,7 +63,7 @@ Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count194
+\etb@tempcnta=\count196
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2021/02/14 v1.3d Input encoding file
@@ -91,8 +91,8 @@ File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
 \Gin@req@width=\dimen148
 )
 (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
-File: l3backend-pdftex.def 2021-12-14 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count195
+File: l3backend-pdftex.def 2022-04-20 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count197
 \l__pdf_internal_box=\box50
 )
 (./flyer.aux)
@@ -149,16 +149,16 @@ LaTeX Font Info:    ... okay on input line 10.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count196
+\scratchcounter=\count198
 \scratchdimen=\dimen149
 \scratchbox=\box51
-\nofMPsegments=\count197
-\nofMParguments=\count198
+\nofMPsegments=\count199
+\nofMParguments=\count266
 \everyMPshowfont=\toks20
-\MPscratchCnt=\count199
+\MPscratchCnt=\count267
 \MPscratchDim=\dimen150
-\MPnumerator=\count266
-\makeMPintoPDFobject=\count267
+\MPnumerator=\count268
+\makeMPintoPDFobject=\count269
 \everyMPtoPDFconversion=\toks21
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -180,17 +180,17 @@ Package pdftex.def Info: coverart.png  used on input line 23.
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./coverart.png>]
 (./flyer.aux) ) 
 Here is how much of TeX's memory you used:
- 2590 strings out of 478353
- 41920 string characters out of 5850634
- 346294 words of memory out of 5000000
- 20728 multiletter control sequences out of 15000+600000
- 404641 words of font info for 31 fonts, out of 8000000 for 9000
+ 2619 strings out of 478293
+ 42654 string characters out of 5847507
+ 340507 words of memory out of 5000000
+ 20813 multiletter control sequences out of 15000+600000
+ 470470 words of font info for 32 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,5n,62p,525b,119s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,5n,62p,525b,119s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
 ss17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10
 .pfb>
-Output written on flyer.pdf (1 page, 44486 bytes).
+Output written on flyer.pdf (1 page, 44904 bytes).
 PDF statistics:
  21 PDF objects out of 1000 (max. 8388607)
  11 compressed objects within 1 object stream

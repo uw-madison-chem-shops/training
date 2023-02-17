@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2022.6.20)  20 JUN 2022 11:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2022.7.29)  19 SEP 2022 09:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **flyer.tex
 (./flyer.tex
-LaTeX2e <2021-11-15> patch level 1
-L3 programming layer <2022-02-24>
+LaTeX2e <2022-06-01> patch level 5
+L3 programming layer <2022-07-15>
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
 (/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
@@ -27,7 +27,7 @@ File: size10.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
 Package: geometry 2020/01/02 v5.9 Page Geometry
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
-Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 \KV@toks@=\toks16
 )
 (/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
@@ -53,7 +53,7 @@ Package: iftex 2022/02/03 v1.0f TeX engine tests
 Package: parskip 2021-03-14 v2.0h non-zero parskip adjustments
 
 (/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
-Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 
 (/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
 Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
@@ -74,7 +74,7 @@ Package: inputenc 2021/02/14 v1.3d Input encoding file
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
@@ -91,9 +91,9 @@ File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
 \Gin@req@width=\dimen148
 )
 (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
-File: l3backend-pdftex.def 2022-02-07 L3 backend support: PDF output (pdfTeX)
+File: l3backend-pdftex.def 2022-07-01 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count197
-\l__pdf_internal_box=\box50
+\l__pdf_internal_box=\box51
 )
 (./flyer.aux)
 \openout1 = `flyer.aux'.
@@ -151,7 +151,7 @@ LaTeX Font Info:    ... okay on input line 10.
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count198
 \scratchdimen=\dimen149
-\scratchbox=\box51
+\scratchbox=\box52
 \nofMPsegments=\count199
 \nofMParguments=\count266
 \everyMPshowfont=\toks20
@@ -180,17 +180,17 @@ Package pdftex.def Info: coverart.jpg  used on input line 23.
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./coverart.jpg>]
 (./flyer.aux) ) 
 Here is how much of TeX's memory you used:
- 2597 strings out of 478268
- 41975 string characters out of 5848886
- 340730 words of memory out of 5000000
- 20816 multiletter control sequences out of 15000+600000
+ 2620 strings out of 478023
+ 42671 string characters out of 5841208
+ 349479 words of memory out of 5000000
+ 21084 multiletter control sequences out of 15000+600000
  470470 words of font info for 32 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,5n,62p,525b,119s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
 ss17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10
 .pfb>
-Output written on flyer.pdf (1 page, 1662549 bytes).
+Output written on flyer.pdf (1 page, 1662337 bytes).
 PDF statistics:
  19 PDF objects out of 1000 (max. 8388607)
  10 compressed objects within 1 object stream
