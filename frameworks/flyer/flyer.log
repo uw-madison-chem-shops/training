@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2022.12.23)  9 JAN 2023 14:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2023.7.5)  21 JUL 2023 17:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **flyer.tex
 (./flyer.tex
-LaTeX2e <2022-11-01>
-L3 programming layer <2022-11-02>
+LaTeX2e <2022-11-01> patch level 1
+L3 programming layer <2023-01-16>
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2022/07/02 v1.4n Standard LaTeX document class
 (/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
@@ -19,8 +19,8 @@ File: size10.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
 \c@subparagraph=\count190
 \c@figure=\count191
 \c@table=\count192
-\abovecaptionskip=\skip47
-\belowcaptionskip=\skip48
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
 \bibindent=\dimen140
 )
 (/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
@@ -91,7 +91,7 @@ File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
 \Gin@req@width=\dimen150
 )
 (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
-File: l3backend-pdftex.def 2022-10-26 L3 backend support: PDF output (pdfTeX)
+File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count197
 \l__pdf_internal_box=\box51
 )
@@ -180,17 +180,17 @@ Package pdftex.def Info: coverart.png  used on input line 23.
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./coverart.png>]
 (./flyer.aux) ) 
 Here is how much of TeX's memory you used:
- 2621 strings out of 474971
- 42711 string characters out of 5778661
- 393761 words of memory out of 5000000
- 24134 multiletter control sequences out of 15000+600000
- 470470 words of font info for 32 fonts, out of 8000000 for 9000
+ 2621 strings out of 476091
+ 42711 string characters out of 5794082
+ 1851330 words of memory out of 5000000
+ 23014 multiletter control sequences out of 15000+600000
+ 513498 words of font info for 36 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,5n,62p,525b,119s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 57i,5n,62p,525b,119s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
 ss17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10
 .pfb>
-Output written on flyer.pdf (1 page, 1177649 bytes).
+Output written on flyer.pdf (1 page, 1177955 bytes).
 PDF statistics:
  21 PDF objects out of 1000 (max. 8388607)
  11 compressed objects within 1 object stream
