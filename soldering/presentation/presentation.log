@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2023.5.3)  17 MAY 2023 12:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2023.7.28)  16 AUG 2023 09:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1431,7 +1431,7 @@ LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
 (Font)              scaled to size 6.0pt on input line 10.
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/b/n' will be
 (Font)              scaled to size 6.0pt on input line 10.
-<logo.png, id=33, 222.5916pt x 353.1594pt>
+<logo.png, id=37, 222.5916pt x 353.1594pt>
 File: logo.png Graphic file (type png)
 <use logo.png>
 Package pdftex.def Info: logo.png  used on input line 10.
@@ -1453,27 +1453,54 @@ Package pdftex.def Info: logo.png  used on input line 11.
  [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
  <./logo.png>]
+<./Double Sided non-PTH2.PNG, id=63, 396.48125pt x 125.46875pt>
+File: ./Double Sided non-PTH2.PNG Graphic file (type png)
+<use ./Double Sided non-PTH2.PNG>
+Package pdftex.def Info: ./Double Sided non-PTH2.PNG  used on input line 17.
+(pdftex.def)             Requested size: 369.88585pt x 117.05421pt.
 File: logo.png Graphic file (type png)
 <use logo.png>
 Package pdftex.def Info: logo.png  used on input line 17.
 (pdftex.def)             Requested size: 28.45274pt x 45.14172pt.
  [2
 
-]
+ <./Double Sided non-PTH2.PNG>]
+<./Double Sided PTH and masked.png, id=77, 396.48125pt x 125.46875pt>
+File: ./Double Sided PTH and masked.png Graphic file (type png)
+<use ./Double Sided PTH and masked.png>
+Package pdftex.def Info: ./Double Sided PTH and masked.png  used on input line 
+21.
+(pdftex.def)             Requested size: 369.88585pt x 117.05421pt.
 File: logo.png Graphic file (type png)
 <use logo.png>
-Package pdftex.def Info: logo.png  used on input line 23.
+Package pdftex.def Info: logo.png  used on input line 21.
 (pdftex.def)             Requested size: 28.45274pt x 45.14172pt.
  [3
 
-]
-<./Big_SMD_capacitor_2.jpg, id=78, 803.0pt x 586.19pt>
+ <./Double Sided PTH and masked.png>]
+<./multilayer.png, id=92, 927.465pt x 577.15625pt>
+File: ./multilayer.png Graphic file (type png)
+<use ./multilayer.png>
+Package pdftex.def Info: ./multilayer.png  used on input line 25.
+(pdftex.def)             Requested size: 369.88585pt x 230.18028pt.
+
+Overfull \vbox (9.95967pt too high) detected at line 25
+ []
+
+File: logo.png Graphic file (type png)
+<use logo.png>
+Package pdftex.def Info: logo.png  used on input line 25.
+(pdftex.def)             Requested size: 28.45274pt x 45.14172pt.
+[4
+
+ <./multilayer.png>]
+<./Big_SMD_capacitor_2.jpg, id=107, 803.0pt x 586.19pt>
 File: ./Big_SMD_capacitor_2.jpg Graphic file (type jpg)
 <use ./Big_SMD_capacitor_2.jpg>
-Package pdftex.def Info: ./Big_SMD_capacitor_2.jpg  used on input line 29.
+Package pdftex.def Info: ./Big_SMD_capacitor_2.jpg  used on input line 33.
 (pdftex.def)             Requested size: 277.41438pt x 202.51305pt.
 LaTeX Font Info:    Trying to load font information for T1+LinuxLibertineMonoT-
-TLF on input line 29.
+TLF on input line 33.
 
 (/usr/share/texlive/texmf-dist/tex/latex/libertine/T1LinuxLibertineMonoT-TLF.fd
 File: T1LinuxLibertineMonoT-TLF.fd 2019/05/20 (autoinst) Font definitions for T
@@ -1482,85 +1509,124 @@ File: T1LinuxLibertineMonoT-TLF.fd 2019/05/20 (autoinst) Font definitions for T
 LaTeX Font Info:    Font shape `T1/LinuxLibertineMonoT-TLF/m/n' in size <10.95>
  not available
 (Font)              Font shape `T1/LinuxLibertineMonoT-TLF/regular/n' tried ins
-tead on input line 29.
+tead on input line 33.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineMonoT-TLF/regular/n' will be
-(Font)              scaled to size 10.95pt on input line 29.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 29.
+(Font)              scaled to size 10.95pt on input line 33.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 33.
 
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 29.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 33.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/it' will be
-(Font)              scaled to size 10.95pt on input line 29.
+(Font)              scaled to size 10.95pt on input line 33.
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/it' will be
-(Font)              scaled to size 8.0pt on input line 29.
+(Font)              scaled to size 8.0pt on input line 33.
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/it' will be
-(Font)              scaled to size 6.0pt on input line 29.
+(Font)              scaled to size 6.0pt on input line 33.
 File: logo.png Graphic file (type png)
 <use logo.png>
-Package pdftex.def Info: logo.png  used on input line 29.
+Package pdftex.def Info: logo.png  used on input line 33.
 (pdftex.def)             Requested size: 28.45274pt x 45.14172pt.
- [4
+ [5
 
  <./Big_SMD_capacitor_2.jpg>]
+<./polarity.jpg, id=122, 4095.3pt x 3083.52pt>
+File: ./polarity.jpg Graphic file (type jpg)
+<use ./polarity.jpg>
+Package pdftex.def Info: ./polarity.jpg  used on input line 38.
+(pdftex.def)             Requested size: 277.41438pt x 208.85791pt.
 File: logo.png Graphic file (type png)
 <use logo.png>
 Package pdftex.def Info: logo.png  used on input line 38.
 (pdftex.def)             Requested size: 28.45274pt x 45.14172pt.
- [5
+ [6
+
+ <./polarity.jpg>]
+File: logo.png Graphic file (type png)
+<use logo.png>
+Package pdftex.def Info: logo.png  used on input line 47.
+(pdftex.def)             Requested size: 28.45274pt x 45.14172pt.
+ [7
 
 ]
-<./Cold_solder_joint2.jpg, id=106, 853.1875pt x 598.235pt>
+<./Cold_solder_joint2.jpg, id=152, 853.1875pt x 598.235pt>
 File: ./Cold_solder_joint2.jpg Graphic file (type jpg)
 <use ./Cold_solder_joint2.jpg>
-Package pdftex.def Info: ./Cold_solder_joint2.jpg  used on input line 46.
+Package pdftex.def Info: ./Cold_solder_joint2.jpg  used on input line 55.
 (pdftex.def)             Requested size: 277.41438pt x 194.51535pt.
 File: logo.png Graphic file (type png)
 <use logo.png>
-Package pdftex.def Info: logo.png  used on input line 46.
+Package pdftex.def Info: logo.png  used on input line 55.
 (pdftex.def)             Requested size: 28.45274pt x 45.14172pt.
- [6
+ [8
 
  <./Cold_solder_joint2.jpg>]
-<./Gebrochene_loetstellen.jpg, id=119, 1003.75pt x 903.375pt>
+<./Gebrochene_loetstellen.jpg, id=167, 1003.75pt x 903.375pt>
 File: ./Gebrochene_loetstellen.jpg Graphic file (type jpg)
 <use ./Gebrochene_loetstellen.jpg>
-Package pdftex.def Info: ./Gebrochene_loetstellen.jpg  used on input line 52.
+Package pdftex.def Info: ./Gebrochene_loetstellen.jpg  used on input line 61.
 (pdftex.def)             Requested size: 277.41438pt x 249.67638pt.
 
-Overfull \vbox (45.62354pt too high) detected at line 52
+Overfull \vbox (45.62354pt too high) detected at line 61
  []
 
 File: logo.png Graphic file (type png)
 <use logo.png>
-Package pdftex.def Info: logo.png  used on input line 52.
+Package pdftex.def Info: logo.png  used on input line 61.
 (pdftex.def)             Requested size: 28.45274pt x 45.14172pt.
-[7
+[9
 
  <./Gebrochene_loetstellen.jpg>]
-<./solder-tweezers.jpg, id=133, 979.0176pt x 651.3936pt>
+File: logo.png Graphic file (type png)
+<use logo.png>
+Package pdftex.def Info: logo.png  used on input line 67.
+(pdftex.def)             Requested size: 28.45274pt x 45.14172pt.
+ [10
+
+]
+File: logo.png Graphic file (type png)
+<use logo.png>
+Package pdftex.def Info: logo.png  used on input line 71.
+(pdftex.def)             Requested size: 28.45274pt x 45.14172pt.
+ [11
+
+]
+<./solder-tweezers.jpg, id=206, 979.0176pt x 651.3936pt>
 File: ./solder-tweezers.jpg Graphic file (type jpg)
 <use ./solder-tweezers.jpg>
-Package pdftex.def Info: ./solder-tweezers.jpg  used on input line 60.
+Package pdftex.def Info: ./solder-tweezers.jpg  used on input line 79.
 (pdftex.def)             Requested size: 277.41438pt x 184.57564pt.
 File: logo.png Graphic file (type png)
 <use logo.png>
-Package pdftex.def Info: logo.png  used on input line 60.
+Package pdftex.def Info: logo.png  used on input line 79.
 (pdftex.def)             Requested size: 28.45274pt x 45.14172pt.
- [8
+ [12
 
  <./solder-tweezers.jpg>]
+<./potting.jpg, id=221, 4047.12pt x 3035.34pt>
+File: ./potting.jpg Graphic file (type jpg)
+<use ./potting.jpg>
+Package pdftex.def Info: ./potting.jpg  used on input line 86.
+(pdftex.def)             Requested size: 277.41438pt x 208.04922pt.
 File: logo.png Graphic file (type png)
 <use logo.png>
-Package pdftex.def Info: logo.png  used on input line 66.
+Package pdftex.def Info: logo.png  used on input line 86.
 (pdftex.def)             Requested size: 28.45274pt x 45.14172pt.
- [9
+
+[13
+
+ <./potting.jpg>]
+File: logo.png Graphic file (type png)
+<use logo.png>
+Package pdftex.def Info: logo.png  used on input line 90.
+(pdftex.def)             Requested size: 28.45274pt x 45.14172pt.
+ [14
 
 ]
 \tf@nav=\write7
@@ -1572,36 +1638,38 @@ Package pdftex.def Info: logo.png  used on input line 66.
 \tf@snm=\write9
 \openout9 = `presentation.snm'.
 
+ [15] (./presentation.aux)
 
+LaTeX Warning: Temporary extra page added at the end. Rerun to get it removed.
 
-LaTeX Warning: Hook 'shipout/lastpage' executed on wrong page (8 not 9).
-               Rerun to correct this.
-
-(./presentation.aux)
 Package rerunfilecheck Info: File `presentation.out' has not changed.
-(rerunfilecheck)             Checksum: 84F8B2886ECBBECD1F4F2452FD5CBFA0;511.
+(rerunfilecheck)             Checksum: 3DD1AF0E84454AF81156FB7F421764EE;574.
 Package logreq Info: Writing requests to 'presentation.run.xml'.
 \openout1 = `presentation.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 33024 strings out of 476091
- 654459 string characters out of 5794082
- 1860330 words of memory out of 5000000
- 52734 multiletter control sequences out of 15000+600000
+ 33093 strings out of 476091
+ 655722 string characters out of 5794081
+ 1861330 words of memory out of 5000000
+ 52785 multiletter control sequences out of 15000+600000
  578102 words of font info for 77 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  142i,16n,136p,1882b,850s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/libertine/lbtn_dhi6qf.enc}{/us
-r/share/texlive/texmf-dist/fonts/enc/dvips/libertine/lbtn_25tcsq.enc}</usr/shar
-e/texlive/texmf-dist/fonts/type1/public/libertine/LinBiolinumT.pfb></usr/share/
-texlive/texmf-dist/fonts/type1/public/libertine/LinBiolinumTB.pfb></usr/share/t
-exlive/texmf-dist/fonts/type1/public/libertine/LinLibertineMT.pfb></usr/share/t
-exlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on presentation.pdf (9 pages, 9380747 bytes).
+
+pdfTeX warning (dest): name{Navigation15} has been referenced but does not exis
+t, replaced by a fixed one
+
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/libertine/lbtn_dhi6qf.enc}{/usr/
+share/texlive/texmf-dist/fonts/enc/dvips/libertine/lbtn_25tcsq.enc}</usr/share/
+texlive/texmf-dist/fonts/type1/public/libertine/LinBiolinumT.pfb></usr/share/te
+xlive/texmf-dist/fonts/type1/public/libertine/LinBiolinumTB.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/public/libertine/LinLibertineMT.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on presentation.pdf (15 pages, 13084426 bytes).
 PDF statistics:
- 187 PDF objects out of 1000 (max. 8388607)
- 154 compressed objects within 2 object streams
- 24 named destinations out of 1000 (max. 500000)
- 108 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 281 PDF objects out of 1000 (max. 8388607)
+ 233 compressed objects within 3 object streams
+ 36 named destinations out of 1000 (max. 500000)
+ 141 words of extra memory for PDF output out of 10000 (max. 10000000)
 

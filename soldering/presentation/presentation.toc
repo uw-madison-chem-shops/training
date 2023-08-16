@@ -1,5 +1,6 @@
 \beamer@sectionintoc {1}{Introduction}{2}{0}{1}
-\beamer@sectionintoc {2}{Surface Mount}{3}{0}{2}
-\beamer@sectionintoc {3}{Through Hole}{6}{0}{3}
-\beamer@sectionintoc {4}{Desoldering}{8}{0}{4}
-\beamer@sectionintoc {5}{Conclusion}{9}{0}{5}
+\beamer@sectionintoc {2}{Surface Mount}{5}{0}{2}
+\beamer@sectionintoc {3}{Through Hole}{8}{0}{3}
+\beamer@sectionintoc {4}{Wire}{10}{0}{4}
+\beamer@sectionintoc {5}{Desoldering}{12}{0}{5}
+\beamer@sectionintoc {6}{Conclusion}{13}{0}{6}
